@@ -3,3 +3,10 @@ function ChromeConsole() {
 }
 
 ChromeConsole();
+
+
+function HelloWorld() {
+    console.log("AYE!"); return;
+}
+
+HelloWorld();
