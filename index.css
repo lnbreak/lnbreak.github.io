@@ -6,6 +6,7 @@
 }
 
 h1 {
-    background: #00ff00 url('rope_banner.jpg') no-repeat top left;
+    background: #00ff00 url('rope_banner.jpg') no-repeat justify;
     color: #ffffff;
+    size: 10em;
 }
