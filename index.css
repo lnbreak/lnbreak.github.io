@@ -4,3 +4,8 @@
     padding: 5em 4em 6em 3em;
     margin: 2em 2em 2em 2em;
 }
+
+h1 {
+    background: #00ff00 url('rope_banner.jpg') no-repeat top left;
+    color: #ffffff;
+}
