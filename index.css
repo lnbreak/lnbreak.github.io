@@ -6,8 +6,8 @@
 }
 
 h1 {
-    background: #00ff00 url('rope_banner.jpg') no-repeat top left;
+    background: #00ff00 url('hello.jpeg') no-repeat top left;
     color: #ffffff;
-    height: 25em;
-    text-align: justify;
+    height: 10em;
+    text-align: center;
 }
