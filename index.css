@@ -1,17 +1,50 @@
-.one {
-    font-family: Hack, monospace;
-    font-weight: 200;
-    padding: 5em 4em 6em 3em;
-    margin: 2em 2em 2em 2em;
-}
-
-h1 {
-    background: #00ff00 url('hello.jpeg') no-repeat top left;
-    color: #ffffff;
-    height: 10em;
-    text-align: center;
-}
-
-.grid-container {
+.container {
     display: grid;
+    /* length */
+    grid-template-columns: 2fr repeat(3, 1fr);
+    /* width */
+    grid-template-rows: 40px 250px 1000px;
+}
+
+body {
+    background-color: rgb(31, 28, 28);
+    color: white;
+}
+
+.colhome {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+    line-height: 20px;
+}
+
+.colabout {
+    grid-row: 1;
+    grid-column: 3;
+    text-align: center;
+    line-height: 20px;
+}
+
+.colcontacts {
+    grid-row: 1;
+    grid-column: 4;
+    text-align: center;
+    line-height: 20px;
+}
+
+.heading {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-image: url(ht.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
+    text-align: center;
+    line-height: 200px;
+}
+
+.body {
+    grid-row: 3;
+    grid-column: 1;
 }
