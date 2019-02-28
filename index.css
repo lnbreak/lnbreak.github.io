@@ -3,13 +3,21 @@
     /* length */
     grid-template-columns: repeat(5, 1fr);
     /* width */
-    grid-template-rows: 70px 250px 1000px;
+    grid-template-rows: 70px 250px 1000px 250px;
 }
 
 body {
     background-color: rgb(31, 28, 28);
     color: white;
     /* font-family: ; */
+}
+
+.collogo {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    line-height: 25px;
 }
 
 .colhome {
@@ -49,3 +57,55 @@ body {
     grid-row: 3;
     grid-column: 1;
 }
+
+.bodytext {
+    grid-row: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.contacts {
+    grid-row: 4;
+    grid-column-start: auto;
+}
+
+/* @group Blink */
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/* @end */
